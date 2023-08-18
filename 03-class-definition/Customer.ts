@@ -1,6 +1,8 @@
 class Customer{
    private firstName: string;
    private lastName: string;
+   private address: string;
+
 
     constructor(firstName: string, lastName: string){
         console.log('Customer constructor called');
@@ -19,6 +21,12 @@ class Customer{
     }   
     public get getLastName(): string{        
         return this.lastName;
+    }
+    public get getAddress(): string {
+        return this.address;
+    }
+    public set setAddress(value: string) {
+        this.address = value;
     }
 
 }
