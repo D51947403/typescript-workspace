@@ -10,3 +10,12 @@ for (let tempSport of sprortOne) {
         console.log(tempSport);
     }
 }
+// growable arrays
+console.log("Growable Arrays");
+let sportsTwo :string[] = ["Golf", "Cricket", "Tennis", "Swimming"];
+sportsTwo.push("Baseball");
+sportsTwo.push("Football");
+sportsTwo.push("Basketball");
+for (let tempSport of sportsTwo) {
+    console.log(tempSport);
+}
